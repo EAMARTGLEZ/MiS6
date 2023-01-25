@@ -1,0 +1,78 @@
+@import url(banner.css);
+@import url(animation.css);
+@import url(faq.css);
+@import url(footer.css);
+* {
+  box-sizing: border-box;
+  letter-spacing: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000;
+  color: #333;
+  direction: ltr;
+  font-family: Helvetica, Segoe UI, Roboto, Ubuntu, sans-serif;
+  font-size: 16px;
+  width: 100vw;
+}
+.offer {
+  background-color: #fff;
+  border: 1px solid #333;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 53px;
+  margin: 0 auto;
+  width: 100%;
+}
+.offer .indication {
+  background-color: #e50914;
+  border-radius: 17px;
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 600;
+  height: 22.62px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.4rem;
+  text-align: center;
+  text-transform: uppercase;
+  width: 88.26px;
+}
+.offer .offer-text {
+  font-size: 1.1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 0.5rem;
+}
+.offer .offer-text .price-label {
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+.offer .btn {
+  border: 0;
+  color: #0071eb;
+  margin-left: 0.5rem;
+  margin-top: 0.9rem;
+}
+.offer .btn .btn-small {
+  align-items: center;
+  display: flex;
+  font-size: 1rem;
+  font-weight: 700;
+  justify-content: center;
+  text-decoration: none;
+}
+.separation {
+  background-color: #222;
+  box-sizing: border-box;
+  display: block;
+  height: 10px;
+  margin-left: -5px;
+  width: 99vw;
+}
